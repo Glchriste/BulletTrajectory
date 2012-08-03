@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F581FB0115CB1C0200EF3E15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F581FB0015CB1C0200EF3E15 /* UIKit.framework */; };
+		F581FB0315CB1C0200EF3E15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F581FB0215CB1C0200EF3E15 /* Foundation.framework */; };
+		F581FB0515CB1C0200EF3E15 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F581FB0415CB1C0200EF3E15 /* CoreGraphics.framework */; };
+		F581FB0B15CB1C0200EF3E15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F581FB0915CB1C0200EF3E15 /* InfoPlist.strings */; };
+		F581FB0D15CB1C0200EF3E15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F581FB0C15CB1C0200EF3E15 /* main.m */; };
+		F581FB1115CB1C0200EF3E15 /* GFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F581FB1015CB1C0200EF3E15 /* GFAppDelegate.m */; };
+		F581FB1415CB1C0200EF3E15 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F581FB1215CB1C0200EF3E15 /* MainStoryboard_iPhone.storyboard */; };
+		F581FB1715CB1C0200EF3E15 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F581FB1515CB1C0200EF3E15 /* MainStoryboard_iPad.storyboard */; };
+		F581FB1A15CB1C0200EF3E15 /* GFFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F581FB1915CB1C0200EF3E15 /* GFFirstViewController.m */; };
+		F581FB1C15CB1C0200EF3E15 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = F581FB1B15CB1C0200EF3E15 /* first.png */; };
+		F581FB1E15CB1C0200EF3E15 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F581FB1D15CB1C0200EF3E15 /* first@2x.png */; };
+		F581FB2115CB1C0200EF3E15 /* GFSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F581FB2015CB1C0200EF3E15 /* GFSecondViewController.m */; };
+		F581FB2315CB1C0200EF3E15 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = F581FB2215CB1C0200EF3E15 /* second.png */; };
+		F581FB2515CB1C0200EF3E15 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F581FB2415CB1C0200EF3E15 /* second@2x.png */; };
+		F581FB2D15CB1C0300EF3E15 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F581FB2C15CB1C0300EF3E15 /* SenTestingKit.framework */; };
+		F581FB2E15CB1C0300EF3E15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F581FB0015CB1C0200EF3E15 /* UIKit.framework */; };
+		F581FB2F15CB1C0300EF3E15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F581FB0215CB1C0200EF3E15 /* Foundation.framework */; };
+		F581FB3715CB1C0300EF3E15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F581FB3515CB1C0300EF3E15 /* InfoPlist.strings */; };
+		F581FB3A15CB1C0300EF3E15 /* BulletTrajectoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F581FB3915CB1C0300EF3E15 /* BulletTrajectoryTests.m */; };
+		F581FB4415CB20E400EF3E15 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F581FB4315CB20E400EF3E15 /* AVFoundation.framework */; };
+		F581FB4615CB20EE00EF3E15 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F581FB4515CB20EE00EF3E15 /* CoreVideo.framework */; };
+		F581FB4815CB20F400EF3E15 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F581FB4715CB20F400EF3E15 /* CoreMedia.framework */; };
+		F581FB4B15CB220900EF3E15 /* GFImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F581FB4A15CB220900EF3E15 /* GFImageUtils.m */; };
+		F581FB4F15CB26FA00EF3E15 /* GF_ARView.m in Sources */ = {isa = PBXBuildFile; fileRef = F581FB4E15CB26FA00EF3E15 /* GF_ARView.m */; };
+		F581FB5215CB336100EF3E15 /* GF_sharedSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = F581FB5115CB336100EF3E15 /* GF_sharedSingleton.m */; };
+		F5927D0915CB587E008482C0 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5927D0815CB587E008482C0 /* GameKit.framework */; };
+		F5927D1015CBEF18008482C0 /* GFThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5927D0F15CBEF18008482C0 /* GFThirdViewController.m */; };
+		F5927D1715CC2EA8008482C0 /* GFFourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5927D1615CC2EA8008482C0 /* GFFourthViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F581FB3015CB1C0300EF3E15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F581FAF315CB1C0100EF3E15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F581FAFB15CB1C0200EF3E15;
+			remoteInfo = BulletTrajectory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F581FAFC15CB1C0200EF3E15 /* BulletTrajectory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BulletTrajectory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F581FB0015CB1C0200EF3E15 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F581FB0215CB1C0200EF3E15 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F581FB0415CB1C0200EF3E15 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F581FB0815CB1C0200EF3E15 /* BulletTrajectory-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BulletTrajectory-Info.plist"; sourceTree = "<group>"; };
+		F581FB0A15CB1C0200EF3E15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F581FB0C15CB1C0200EF3E15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F581FB0E15CB1C0200EF3E15 /* BulletTrajectory-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BulletTrajectory-Prefix.pch"; sourceTree = "<group>"; };
+		F581FB0F15CB1C0200EF3E15 /* GFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFAppDelegate.h; sourceTree = "<group>"; };
+		F581FB1015CB1C0200EF3E15 /* GFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFAppDelegate.m; sourceTree = "<group>"; };
+		F581FB1315CB1C0200EF3E15 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		F581FB1615CB1C0200EF3E15 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		F581FB1815CB1C0200EF3E15 /* GFFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFFirstViewController.h; sourceTree = "<group>"; };
+		F581FB1915CB1C0200EF3E15 /* GFFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFFirstViewController.m; sourceTree = "<group>"; };
+		F581FB1B15CB1C0200EF3E15 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		F581FB1D15CB1C0200EF3E15 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		F581FB1F15CB1C0200EF3E15 /* GFSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFSecondViewController.h; sourceTree = "<group>"; };
+		F581FB2015CB1C0200EF3E15 /* GFSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFSecondViewController.m; sourceTree = "<group>"; };
+		F581FB2215CB1C0200EF3E15 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		F581FB2415CB1C0200EF3E15 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		F581FB2B15CB1C0300EF3E15 /* BulletTrajectoryTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BulletTrajectoryTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F581FB2C15CB1C0300EF3E15 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F581FB3415CB1C0300EF3E15 /* BulletTrajectoryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BulletTrajectoryTests-Info.plist"; sourceTree = "<group>"; };
+		F581FB3615CB1C0300EF3E15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F581FB3815CB1C0300EF3E15 /* BulletTrajectoryTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BulletTrajectoryTests.h; sourceTree = "<group>"; };
+		F581FB3915CB1C0300EF3E15 /* BulletTrajectoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BulletTrajectoryTests.m; sourceTree = "<group>"; };
+		F581FB4315CB20E400EF3E15 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F581FB4515CB20EE00EF3E15 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		F581FB4715CB20F400EF3E15 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F581FB4915CB220900EF3E15 /* GFImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFImageUtils.h; sourceTree = "<group>"; };
+		F581FB4A15CB220900EF3E15 /* GFImageUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFImageUtils.m; sourceTree = "<group>"; };
+		F581FB4D15CB26FA00EF3E15 /* GF_ARView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GF_ARView.h; sourceTree = "<group>"; };
+		F581FB4E15CB26FA00EF3E15 /* GF_ARView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GF_ARView.m; sourceTree = "<group>"; };
+		F581FB5015CB336100EF3E15 /* GF_sharedSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GF_sharedSingleton.h; path = ../GF_sharedSingleton.h; sourceTree = "<group>"; };
+		F581FB5115CB336100EF3E15 /* GF_sharedSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GF_sharedSingleton.m; path = ../GF_sharedSingleton.m; sourceTree = "<group>"; };
+		F5927D0815CB587E008482C0 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		F5927D0E15CBEF18008482C0 /* GFThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFThirdViewController.h; sourceTree = "<group>"; };
+		F5927D0F15CBEF18008482C0 /* GFThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFThirdViewController.m; sourceTree = "<group>"; };
+		F5927D1515CC2EA8008482C0 /* GFFourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFFourthViewController.h; sourceTree = "<group>"; };
+		F5927D1615CC2EA8008482C0 /* GFFourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFFourthViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F581FAF915CB1C0200EF3E15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5927D0915CB587E008482C0 /* GameKit.framework in Frameworks */,
+				F581FB4815CB20F400EF3E15 /* CoreMedia.framework in Frameworks */,
+				F581FB4615CB20EE00EF3E15 /* CoreVideo.framework in Frameworks */,
+				F581FB4415CB20E400EF3E15 /* AVFoundation.framework in Frameworks */,
+				F581FB0115CB1C0200EF3E15 /* UIKit.framework in Frameworks */,
+				F581FB0315CB1C0200EF3E15 /* Foundation.framework in Frameworks */,
+				F581FB0515CB1C0200EF3E15 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F581FB2715CB1C0300EF3E15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F581FB2D15CB1C0300EF3E15 /* SenTestingKit.framework in Frameworks */,
+				F581FB2E15CB1C0300EF3E15 /* UIKit.framework in Frameworks */,
+				F581FB2F15CB1C0300EF3E15 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F581FAF115CB1C0100EF3E15 = {
+			isa = PBXGroup;
+			children = (
+				F581FB4C15CB26D100EF3E15 /* BlackBox */,
+				F581FB4715CB20F400EF3E15 /* CoreMedia.framework */,
+				F581FB4515CB20EE00EF3E15 /* CoreVideo.framework */,
+				F581FB4315CB20E400EF3E15 /* AVFoundation.framework */,
+				F581FB0615CB1C0200EF3E15 /* BulletTrajectory */,
+				F581FB3215CB1C0300EF3E15 /* BulletTrajectoryTests */,
+				F581FAFF15CB1C0200EF3E15 /* Frameworks */,
+				F581FAFD15CB1C0200EF3E15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F581FAFD15CB1C0200EF3E15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F581FAFC15CB1C0200EF3E15 /* BulletTrajectory.app */,
+				F581FB2B15CB1C0300EF3E15 /* BulletTrajectoryTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F581FAFF15CB1C0200EF3E15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5927D0815CB587E008482C0 /* GameKit.framework */,
+				F581FB0015CB1C0200EF3E15 /* UIKit.framework */,
+				F581FB0215CB1C0200EF3E15 /* Foundation.framework */,
+				F581FB0415CB1C0200EF3E15 /* CoreGraphics.framework */,
+				F581FB2C15CB1C0300EF3E15 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F581FB0615CB1C0200EF3E15 /* BulletTrajectory */ = {
+			isa = PBXGroup;
+			children = (
+				F581FB5015CB336100EF3E15 /* GF_sharedSingleton.h */,
+				F581FB5115CB336100EF3E15 /* GF_sharedSingleton.m */,
+				F581FB4D15CB26FA00EF3E15 /* GF_ARView.h */,
+				F581FB4E15CB26FA00EF3E15 /* GF_ARView.m */,
+				F581FB0F15CB1C0200EF3E15 /* GFAppDelegate.h */,
+				F581FB1015CB1C0200EF3E15 /* GFAppDelegate.m */,
+				F581FB1215CB1C0200EF3E15 /* MainStoryboard_iPhone.storyboard */,
+				F581FB1515CB1C0200EF3E15 /* MainStoryboard_iPad.storyboard */,
+				F581FB1815CB1C0200EF3E15 /* GFFirstViewController.h */,
+				F581FB1915CB1C0200EF3E15 /* GFFirstViewController.m */,
+				F581FB1B15CB1C0200EF3E15 /* first.png */,
+				F581FB1D15CB1C0200EF3E15 /* first@2x.png */,
+				F581FB1F15CB1C0200EF3E15 /* GFSecondViewController.h */,
+				F581FB2015CB1C0200EF3E15 /* GFSecondViewController.m */,
+				F5927D0E15CBEF18008482C0 /* GFThirdViewController.h */,
+				F5927D0F15CBEF18008482C0 /* GFThirdViewController.m */,
+				F5927D1515CC2EA8008482C0 /* GFFourthViewController.h */,
+				F5927D1615CC2EA8008482C0 /* GFFourthViewController.m */,
+				F581FB2215CB1C0200EF3E15 /* second.png */,
+				F581FB2415CB1C0200EF3E15 /* second@2x.png */,
+				F581FB0715CB1C0200EF3E15 /* Supporting Files */,
+			);
+			path = BulletTrajectory;
+			sourceTree = "<group>";
+		};
+		F581FB0715CB1C0200EF3E15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F581FB0815CB1C0200EF3E15 /* BulletTrajectory-Info.plist */,
+				F581FB0915CB1C0200EF3E15 /* InfoPlist.strings */,
+				F581FB0C15CB1C0200EF3E15 /* main.m */,
+				F581FB0E15CB1C0200EF3E15 /* BulletTrajectory-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F581FB3215CB1C0300EF3E15 /* BulletTrajectoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				F581FB3815CB1C0300EF3E15 /* BulletTrajectoryTests.h */,
+				F581FB3915CB1C0300EF3E15 /* BulletTrajectoryTests.m */,
+				F581FB3315CB1C0300EF3E15 /* Supporting Files */,
+			);
+			path = BulletTrajectoryTests;
+			sourceTree = "<group>";
+		};
+		F581FB3315CB1C0300EF3E15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F581FB3415CB1C0300EF3E15 /* BulletTrajectoryTests-Info.plist */,
+				F581FB3515CB1C0300EF3E15 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F581FB4C15CB26D100EF3E15 /* BlackBox */ = {
+			isa = PBXGroup;
+			children = (
+				F581FB4915CB220900EF3E15 /* GFImageUtils.h */,
+				F581FB4A15CB220900EF3E15 /* GFImageUtils.m */,
+			);
+			name = BlackBox;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F581FAFB15CB1C0200EF3E15 /* BulletTrajectory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F581FB3D15CB1C0300EF3E15 /* Build configuration list for PBXNativeTarget "BulletTrajectory" */;
+			buildPhases = (
+				F581FAF815CB1C0200EF3E15 /* Sources */,
+				F581FAF915CB1C0200EF3E15 /* Frameworks */,
+				F581FAFA15CB1C0200EF3E15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BulletTrajectory;
+			productName = BulletTrajectory;
+			productReference = F581FAFC15CB1C0200EF3E15 /* BulletTrajectory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F581FB2A15CB1C0300EF3E15 /* BulletTrajectoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F581FB4015CB1C0300EF3E15 /* Build configuration list for PBXNativeTarget "BulletTrajectoryTests" */;
+			buildPhases = (
+				F581FB2615CB1C0300EF3E15 /* Sources */,
+				F581FB2715CB1C0300EF3E15 /* Frameworks */,
+				F581FB2815CB1C0300EF3E15 /* Resources */,
+				F581FB2915CB1C0300EF3E15 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F581FB3115CB1C0300EF3E15 /* PBXTargetDependency */,
+			);
+			name = BulletTrajectoryTests;
+			productName = BulletTrajectoryTests;
+			productReference = F581FB2B15CB1C0300EF3E15 /* BulletTrajectoryTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F581FAF315CB1C0100EF3E15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GF;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "University of North Carolina at Charlotte";
+			};
+			buildConfigurationList = F581FAF615CB1C0100EF3E15 /* Build configuration list for PBXProject "BulletTrajectory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F581FAF115CB1C0100EF3E15;
+			productRefGroup = F581FAFD15CB1C0200EF3E15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F581FAFB15CB1C0200EF3E15 /* BulletTrajectory */,
+				F581FB2A15CB1C0300EF3E15 /* BulletTrajectoryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F581FAFA15CB1C0200EF3E15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F581FB0B15CB1C0200EF3E15 /* InfoPlist.strings in Resources */,
+				F581FB1415CB1C0200EF3E15 /* MainStoryboard_iPhone.storyboard in Resources */,
+				F581FB1715CB1C0200EF3E15 /* MainStoryboard_iPad.storyboard in Resources */,
+				F581FB1C15CB1C0200EF3E15 /* first.png in Resources */,
+				F581FB1E15CB1C0200EF3E15 /* first@2x.png in Resources */,
+				F581FB2315CB1C0200EF3E15 /* second.png in Resources */,
+				F581FB2515CB1C0200EF3E15 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F581FB2815CB1C0300EF3E15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F581FB3715CB1C0300EF3E15 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F581FB2915CB1C0300EF3E15 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F581FAF815CB1C0200EF3E15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F581FB0D15CB1C0200EF3E15 /* main.m in Sources */,
+				F581FB1115CB1C0200EF3E15 /* GFAppDelegate.m in Sources */,
+				F581FB1A15CB1C0200EF3E15 /* GFFirstViewController.m in Sources */,
+				F581FB2115CB1C0200EF3E15 /* GFSecondViewController.m in Sources */,
+				F581FB4B15CB220900EF3E15 /* GFImageUtils.m in Sources */,
+				F581FB4F15CB26FA00EF3E15 /* GF_ARView.m in Sources */,
+				F581FB5215CB336100EF3E15 /* GF_sharedSingleton.m in Sources */,
+				F5927D1015CBEF18008482C0 /* GFThirdViewController.m in Sources */,
+				F5927D1715CC2EA8008482C0 /* GFFourthViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F581FB2615CB1C0300EF3E15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F581FB3A15CB1C0300EF3E15 /* BulletTrajectoryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F581FB3115CB1C0300EF3E15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F581FAFB15CB1C0200EF3E15 /* BulletTrajectory */;
+			targetProxy = F581FB3015CB1C0300EF3E15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F581FB0915CB1C0200EF3E15 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F581FB0A15CB1C0200EF3E15 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F581FB1215CB1C0200EF3E15 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F581FB1315CB1C0200EF3E15 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		F581FB1515CB1C0200EF3E15 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F581FB1615CB1C0200EF3E15 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		F581FB3515CB1C0300EF3E15 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F581FB3615CB1C0300EF3E15 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F581FB3B15CB1C0300EF3E15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F581FB3C15CB1C0300EF3E15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F581FB3E15CB1C0300EF3E15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BulletTrajectory/BulletTrajectory-Prefix.pch";
+				INFOPLIST_FILE = "BulletTrajectory/BulletTrajectory-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F581FB3F15CB1C0300EF3E15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BulletTrajectory/BulletTrajectory-Prefix.pch";
+				INFOPLIST_FILE = "BulletTrajectory/BulletTrajectory-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F581FB4115CB1C0300EF3E15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BulletTrajectory.app/BulletTrajectory";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BulletTrajectory/BulletTrajectory-Prefix.pch";
+				INFOPLIST_FILE = "BulletTrajectoryTests/BulletTrajectoryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F581FB4215CB1C0300EF3E15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BulletTrajectory.app/BulletTrajectory";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BulletTrajectory/BulletTrajectory-Prefix.pch";
+				INFOPLIST_FILE = "BulletTrajectoryTests/BulletTrajectoryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F581FAF615CB1C0100EF3E15 /* Build configuration list for PBXProject "BulletTrajectory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F581FB3B15CB1C0300EF3E15 /* Debug */,
+				F581FB3C15CB1C0300EF3E15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F581FB3D15CB1C0300EF3E15 /* Build configuration list for PBXNativeTarget "BulletTrajectory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F581FB3E15CB1C0300EF3E15 /* Debug */,
+				F581FB3F15CB1C0300EF3E15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F581FB4015CB1C0300EF3E15 /* Build configuration list for PBXNativeTarget "BulletTrajectoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F581FB4115CB1C0300EF3E15 /* Debug */,
+				F581FB4215CB1C0300EF3E15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F581FAF315CB1C0100EF3E15 /* Project object */;
+}
